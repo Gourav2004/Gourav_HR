@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HR Management System</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Navigation Bar -->
+  <nav class="navbar">
+    <div class="navbar-brand">HR Management</div>
+    <ul class="navbar-links">
+      <li><a href="#employees-section">Employees</a></li>
+      <li><a href="#attendance-section">Attendance</a></li>
+      <li><a href="#payroll-section">Payroll</a></li>
+      <li><a href="#settings-section">Settings</a></li>
+    </ul>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero full-width">
+    <h1>Welcome to the HR Management System</h1>
+    <p>Manage your employees, track attendance, and process payroll seamlessly.</p>
+    <a href="#employees-section" class="cta-btn">Get Started</a>
+  </section>
+
+  <!-- Employee Section -->
+  <section id="employees-section" class="section">
+    <h2>Employee Management</h2>
+    <p>Manage employee details easily. Only employee names are visible to maintain privacy.</p>
+    <div class="employee-list">
+      <!-- Employee names will be dynamically loaded here -->
+    </div>
+
+    <!-- Add Employee Form -->
+    <h3>Add New Employee</h3>
+    <div class="add-employee-form">
+      <input type="text" id="new-employee-name" placeholder="Enter employee name" required>
+      <button id="add-employee-btn" class="primary-btn">Add Employee</button>
+    </div>
+
+    <button id="download-info-btn" class="primary-btn">Download Employee Information</button>
+  </section>
+
+  <!-- Attendance Section -->
+  <section id="attendance-section" class="section">
+    <h2>Attendance Tracking</h2>
+    <p>Track employee attendance with geofencing and calculate overtime effortlessly.</p>
+    <div class="attendance-management">
+      <label for="employee-attendance">Mark Attendance for Employee:</label>
+      <select id="employee-attendance">
+        <!-- Employee names dynamically loaded here -->
+      </select>
+      <button id="mark-attendance-btn" class="primary-btn">Mark Attendance</button>
+    </div>
+  </section>
+
+  <!-- Payroll Section -->
+  <section id="payroll-section" class="section">
+    <h2>Payroll Processing</h2>
+    <p>Automated payroll calculation with tax deductions.</p>
+    <div class="payroll-management">
+      <label for="employee-payroll">Generate Payroll for:</label>
+      <select id="employee-payroll">
+        <!-- Employee names dynamically loaded here -->
+      </select>
+      <button id="generate-payroll-btn" class="primary-btn">Generate Payroll</button>
+    </div>
+  </section>
+
+  <!-- Settings Section -->
+  <section id="settings-section" class="section">
+    <h2>Settings</h2>
+    <p>Customize your HR management experience.</p>
+    <!-- More settings can be added here -->
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>&copy; 2024 HR Management System</p>
+  </footer>
+
+  <!-- JavaScript Files -->
+  <script src="script.js"></script>
+</body>
+</html>

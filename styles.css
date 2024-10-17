@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f9;
+    color: #333;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: #1e88e5;
+    padding: 1rem;
+  }
+  
+  .navbar-brand {
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .navbar-links {
+    list-style: none;
+    display: flex;
+  }
+  
+  .navbar-links li {
+    margin-left: 1.5rem;
+  }
+  
+  .navbar-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: color 0.3s ease;
+  }
+  
+  .navbar-links a:hover {
+    color: #ffeb3b;
+  }
+  
+  /* Full-width hero section */
+  .hero {
+    background-color: #1976d2;
+    color: white;
+    padding: 4rem 2rem;
+    text-align: center;
+    width: 100%;
+  }
+  
+  .hero h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+  
+  .hero p {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .cta-btn {
+    background-color: #ffeb3b;
+    color: #333;
+    padding: 0.75rem 2rem;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+  
+  .cta-btn:hover {
+    background-color: #ffc107;
+  }
+  
+  .section {
+    padding: 2rem 1rem;
+    background-color: white;
+    margin: 1rem 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .section h2 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+    color: #1e88e5;
+  }
+  
+  .section p {
+    margin-bottom: 1.5rem;
+  }
+  
+  .primary-btn {
+    background-color: #1e88e5;
+    color: white;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  .primary-btn:hover {
+    background-color: #1565c0;
+  }
+  
+  .add-employee-form {
+    margin-bottom: 1.5rem;
+  }
+  
+  .add-employee-form input {
+    padding: 0.5rem;
+    width: 200px;
+    border: 1px solid #ddd;
+    margin-right: 0.5rem;
+    border-radius: 5px;
+  }
+  
+  .footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #1e88e5;
+    color: white;
+  }
+  
+  @media (min-width: 768px) {
+    .hero h1 {
+      font-size: 3.5rem;
+    }
+    .hero p {
+      font-size: 1.75rem;
+    }
+  }
+  
