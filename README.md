@@ -1,6 +1,6 @@
 ## HR Management System
 
-A simple HR Management System built with HTML, CSS, and JavaScript.
+A simple HR Management System built with **HTML**, **CSS**, and **JavaScript.**
 This project provides basic features for managing employees, tracking attendance, handling payroll, and exporting employee information in a Word document format.
 
 ## Features
