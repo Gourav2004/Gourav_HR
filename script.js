@@ -10,7 +10,7 @@ let employees = [
     loadEmployees();
   });
   
-  // Function to load employees dynamically
+  // Function to  load employees dynamically
   function loadEmployees() {
     const employeeList = document.querySelector('.employee-list');
     const attendanceSelect = document.querySelector('#employee-attendance');
@@ -110,4 +110,5 @@ let employees = [
     // Trigger download
     link.click();
   });
+
   
